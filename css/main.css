@@ -1,0 +1,2112 @@
+@import "fonts.css";
+body {
+  background: #f9fafa;
+}
+.container-fluid {
+  max-width: 1300px;
+}
+.container {
+  max-width: 946px;
+}
+ul li {
+  list-style: none;
+}
+.header__top {
+  background: #fbba42;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.phone {
+  width: 14px;
+  height: 15px;
+}
+.header_phone__number {
+  font-weight: 700;
+  font-size: 14px;
+}
+.email {
+  width: 18px;
+  height: 13px;
+  margin-left: 38px;
+}
+header {
+  background: #2f3440;
+}
+.navbar-brand {
+  font-family: Roboto-Bold;
+  font-size: 26px;
+  color: #ffffff !important;
+  margin-right: 30px;
+}
+.header_nav {
+  font-family: Roboto-Medium;
+  font-size: 14px;
+  color: #ffffff !important;
+}
+.nav-item:nth-child(8) {
+  margin-right: 46px;
+}
+.contact_button {
+  width: 108px;
+  height: 35px;
+  font-family: Roboto-Bold;
+  font-size: 14px;
+  margin-right: 14px;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  background: #242830;
+}
+.calculator {
+  width: 28px;
+  height: 33px;
+}
+.menu_toggle {
+  height: 28px;
+  width: 38px;
+}
+/* ------------------------------------------------------slider slider slider ----------------------------------------------------*/
+
+.slider_div {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url(../img/workers_bg.png);
+}
+
+.slider_title {
+  font-family: "Roboto-Bold";
+  color: #fbba42;
+  font-size: 58.5px;
+}
+.slider_second_title {
+  font-family: "Roboto-Bold";
+  font-size: 58.5px;
+}
+.slider-content {
+  padding: 150px 0px 250px;
+}
+.slider_value {
+  border-radius: 50% !important;
+  width: 9px !important;
+  height: 9px !important;
+}
+li.slider_value.active {
+  background-color: #fbba42;
+}
+.slider_text {
+  font-family: "Roboto-Light";
+  font-size: 18px;
+}
+ol.carousel-indicators {
+  padding-bottom: 130px;
+}
+.header_slider_next_button,
+.header_slider_prev_button {
+  width: 12px;
+  height: 23px;
+  margin: auto;
+}
+.header_slider_prev_div,
+.header_slider_next_div {
+  width: 50px;
+  height: 50px;
+  background-color: #62666f;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+}
+.carousel-control-prev {
+  padding-left: 1%;
+}
+.carousel-control-next {
+  padding-right: 1%;
+}
+/* ------------------------------------------------------slider slider slider ----------------------------------------------------*/
+/* ------------------------------------------------------after slider after ----------------------------------------------------*/
+.advantage_wrraper {
+  position: relative;
+  bottom: 118px;
+  left: 0;
+  background-image: url(../img/advantage_bg.png);
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 100% 0;
+  padding-left: 42px;
+  box-shadow: 0px 6px 16px 2px rgba(42, 81, 140, 0.1);
+  border-radius: 10px;
+}
+.advantage_text {
+  font-family: Roboto-Black;
+  font-size: 34.5px;
+  color: #414149;
+  margin-bottom: 16px;
+  margin-top: 46px;
+}
+.shadow__wrraper {
+  padding: 0 15px;
+}
+.advantage_line {
+  width: 116px;
+  border-bottom: 4px solid #fbba42;
+  margin: 0;
+  margin-bottom: 52px;
+}
+.advantage_title {
+  font-family: Roboto-Bold;
+  font-size: 16px;
+  color: #b5b9c1;
+  line-height: 1.25;
+}
+.sert {
+  width: 34px;
+  height: 52px;
+}
+.sertificate_text {
+  width: 50%;
+}
+.sertificate_marg {
+  margin-bottom: 53px;
+}
+.truck {
+  width: 46px;
+  height: 33px;
+}
+.truck_text {
+  width: 50%;
+}
+.truck_marg {
+  margin-bottom: 59px;
+}
+.sale {
+  width: 39px;
+  height: 39px;
+}
+.sale_text {
+  width: 36%;
+}
+.truck_marg {
+  margin-bottom: 50px;
+}
+.hours {
+  width: 37px;
+  height: 40px;
+}
+.hours_text {
+  width: 70%;
+}
+.hours_marg {
+  margin-bottom: 52px;
+}
+.payment {
+  width: 46px;
+  height: 47px;
+}
+.payment_text {
+  width: 50%;
+}
+.payment_marg {
+  margin-bottom: 43px;
+}
+.factory {
+  width: 40px;
+  height: 52px;
+}
+.factory_text {
+  width: 59%;
+}
+.factory_marg {
+  margin-bottom: 52px;
+}
+/* ------------------------------------------------------after slider after ----------------------------------------------------*/
+.order_row {
+  margin-top: -62px;
+  padding: 100px 0;
+  background: url(../img/order_background.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.valves {
+  max-width: 100%;
+  height: auto;
+}
+.valves__order_text {
+  font-family: Roboto-Regular;
+  font-size: 22px;
+  color: #ffffff;
+}
+.fifteen_tones {
+  font-family: Roboto-Black;
+  font-size: 60px;
+  color: #1cbbb4;
+  line-height: 1.1;
+}
+.one_tone {
+  font-family: Roboto-Black;
+  font-size: 60px;
+  color: #fbba42;
+  line-height: 1.1;
+}
+/*-------------------------------------  form --------------------------------------------*/
+.name_input {
+  width: 70.4%;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+}
+.your_name {
+  font-family: Roboto-Medium;
+  font-size: 16px;
+  color: #ffffff;
+}
+.table_type__select {
+  width: 90%;
+  height: 40px;
+  font-family: Roboto-Bold;
+  color: #2f3440;
+  margin-bottom: 20px;
+  background: #ffffff;
+  border-radius: 5px;
+  border: none;
+}
+.number_input {
+  width: 44.8%;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+}
+.wrraper {
+  display: block;
+  font-family: Roboto-Regular;
+  font-size: 14px;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  user-select: none;
+}
+.wrraper input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.checkmark {
+  position: absolute;
+  top: 14px;
+  left: 0;
+  height: 25px;
+  width: 26px;
+  background-color: #eee;
+  border-radius: 5px;
+}
+.wrraper:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+.wrraper input:checked ~ .checkmark {
+  background-color: #2196f3;
+}
+#checkmark {
+  background: #ffffff !important;
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.wrraper input:checked ~ .checkmark:after {
+  display: block;
+}
+.wrraper .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 8px;
+  height: 14px;
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+.agree_sign {
+  font-family: Roboto-Regular;
+  font-size: 14px;
+  color: #ffffff;
+  width: 48%;
+}
+.leave_application {
+  font-family: Roboto-Bold;
+  font-size: 14px;
+  color: #ffffff;
+  width: 70.4%;
+  height: 45px;
+  padding: 0;
+  border: none;
+  background: #2f3440;
+  border-radius: 10px;
+}
+/*-------------------------------------  form --------------------------------------------*/
+.recall {
+  background: #2f3440;
+}
+.recall__text {
+  font-family: Roboto-Regular;
+  font-size: 16px;
+  color: #ffffff;
+}
+.priceList_wrraper {
+  padding-top: 118px;
+}
+.price_list {
+  font-family: Roboto-Black;
+  font-size: 35px;
+}
+.price_list__underline {
+  border-bottom: 3px solid #fbba42;
+  width: 116px;
+  margin-bottom: 34px;
+}
+.catalog_menu {
+  font-family: Roboto-Bold;
+}
+.catalog_menu a {
+  color: #2f3440;
+  cursor: pointer;
+}
+.active_form {
+  background: #fbba42;
+  border-radius: 5px;
+  color: #ffffff !important;
+}
+.first_price__list {
+  overflow: scroll;
+  margin-bottom: 170px;
+}
+
+/* ------------------------------- pricelist-------------------------------------------------------- */
+
+.price_list__header {
+  width: 135px;
+  height: 52px;
+  font-family: Roboto-Regular;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #40444b;
+  border-radius: 10px;
+}
+
+.table_price__wrraper {
+  padding: 0 4.9%;
+}
+.table_shadow {
+  box-shadow: 0px 6px 16px 2px rgba(42, 81, 140, 0.05);
+}
+.table_price__wrraper ul {
+  background: #242830;
+  padding: 24px 0px 23px 26px;
+}
+.table_price__wrraper li {
+  margin-right: 22px;
+}
+.table_price__wrraper th {
+  border: none;
+}
+.table_price__wrraper td {
+  font-size: 14px;
+  vertical-align: middle;
+  border: 1px solid #f7f7f7;
+  background: #ffffff;
+}
+.for_border {
+  border: 1px solid #000 !important;
+  font-family: Roboto-Regular;
+  font-size: 14px;
+  color: #ffffff;
+}
+.table_price__wrraper tbody {
+  border: hidden;
+}
+.table_price__wrraper thead {
+  background: #2f3440;
+}
+.order_buy {
+  font-family: Roboto-Bold;
+  font-size: 14px;
+  color: #ffffff;
+  height: 50px;
+  line-height: 50px;
+  vertical-align: middle;
+  background: #1cbbb4;
+}
+.order_buy:hover {
+  font-family: Roboto-Bold;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* ------------------------------- pricelist-------------------------------------------------------- */
+
+/* ------------------------------- worker-------------------------------------------------------- */
+.worrker_wrraper {
+  background: url(../img/worker_bg.png);
+  background-size: cover;
+  background-position: 50% 0;
+  height: 355px;
+  padding-top: 5%;
+  padding-bottom: 4%;
+}
+.left_presentText_wrraper {
+  padding-right: 24%;
+}
+.right_presentText_wrraper {
+  padding-left: 24%;
+}
+.present_item {
+  font-family: Roboto-Black;
+  font-size: 25px;
+  color: #ffffff;
+  line-height: 1.2;
+  letter-spacing: 1.3px;
+  margin-bottom: 32px;
+}
+.present_color {
+  color: #2f3440;
+}
+.present_paragraph {
+  font-family: Roboto-Regular;
+  font-size: 16px;
+  color: #2f3440;
+  line-height: 1.25;
+  margin-bottom: 8.1%;
+  width: 77%;
+}
+.present_form {
+  background: #292d36;
+  height: 46px;
+  clip-path: polygon(0 1%, 100% 0, 100% 100%, 12% 100%);
+  padding-right: 24.1%;
+  width: 80%;
+}
+.present_time {
+  font-family: Roboto-Regular;
+  font-size: 16px;
+  color: #ffffff;
+}
+.present_count {
+  font-family: Roboto-Black;
+  font-size: 25px;
+  color: #ffffff;
+}
+.present_color__right {
+  font-family: Roboto-Black;
+  font-size: 25px;
+  color: #fbba42;
+}
+.present_paragraph__right {
+  font-family: Roboto-Regular;
+  display: 16px;
+  color: #ffffff;
+  line-height: 1.25;
+  margin-bottom: 8.1%;
+  width: 77%;
+}
+.present_form__right {
+  height: 46px;
+  background: #1cbbb4;
+  clip-path: polygon(0 0, 100% 0, 88% 100%, 0% 100%);
+  padding-left: 24.1%;
+  width: 80%;
+}
+.present_time__right {
+  font-family: Roboto-Regular;
+  font-size: 16px;
+  color: #ffffff;
+}
+.present_count__right {
+  font-family: Roboto-Black;
+  font-size: 25px;
+}
+.worker_with__helmet {
+  max-width: 46%;
+  width: 255px;
+  z-index: 1;
+  height: 416px;
+  left: 78%;
+  top: -109px;
+  margin: auto;
+}
+.calc_wrraper {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.worker_with__hat {
+  position: absolute;
+  z-index: 10;
+  width: 255px;
+  height: 415px;
+  left: 0;
+  right: 0;
+  top: -60px;
+  margin: auto;
+}
+/* ------------------------------- worker-------------------------------------------------------- */
+
+/* -------------------------------  range-------------------------------------------------------- */
+
+.price_range {
+  -webkit-appearance: none;
+  -moz-apperance: none;
+  border-radius: 6px;
+  height: 8px;
+  background-color: #fbba42;
+}
+
+.price_range::-webkit-slider-thumb {
+  -webkit-appearance: none !important;
+  background-color: #fff;
+  border: 1px solid #fbba42;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+}
+
+.calculate {
+  font-family: Roboto-Black;
+  font-size: 35px;
+  font-weight: 900;
+  letter-spacing: 1.8px;
+  color: #fbba42;
+}
+.calculate_text {
+  color: #ffffff;
+}
+.range__wrraper {
+  background-color: #2f3440;
+  padding: 129px 0px;
+}
+.range_title {
+  font-family: Roboto-Medium;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #ffffff;
+}
+.first_range__title {
+  margin-bottom: 15px;
+}
+.class_choose__button {
+  font-family: Roboto-bold;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  background: #ffffff;
+}
+.second_choose__wrraper {
+  margin-bottom: 30px;
+}
+.first_choose__class {
+  width: 77%;
+}
+.second_choose__class {
+  width: 50%;
+}
+.second_range__wrraper {
+  padding-top: 47px;
+  margin-bottom: 30px;
+}
+.rang__num_wrraper {
+  margin-bottom: 20px;
+}
+.price_range {
+  width: 100%;
+  margin-bottom: 8px;
+}
+.rang__num {
+  font-family: Roboto-Bold;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 2;
+  color: #ffffff;
+}
+.rang_show {
+  font-family: Roboto-bold;
+  font-size: 16px;
+  font-weight: 700;
+  background: #ffffff;
+  border-radius: 5px;
+  color: #2f3440;
+  padding-bottom: 1.6%;
+  width: 50%;
+  border: none;
+}
+.total_price {
+  font-family: Roboto-Bold;
+  font-size: 25px;
+  font-weight: bold;
+  color: #ffffff;
+  width: 60%;
+  margin-bottom: 10px;
+}
+.total_num {
+  font-family: Roboto-Black;
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: #fbba42;
+}
+.total_price__line {
+  border-bottom: 1px solid #1d1f25;
+  width: 80%;
+}
+.stock {
+  width: 11%;
+  height: auto;
+}
+.suggest_price {
+  width: 47%;
+  font-family: Roboto-Medium;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.25;
+  margin-top: 27px;
+  color: #ffffff;
+}
+.write_your__price {
+  margin-top: 27px;
+  width: 262px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  border: solid 1px #fbba42;
+}
+
+.do_order {
+  font-family: Roboto-Bold;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #ffffff;
+  margin-top: 46px;
+  width: 262px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 5%;
+  background-color: #fbba42;
+  cursor: pointer;
+}
+
+.show_price__status {
+  width: 262px;
+  height: 17px;
+  background: #1cbbb4;
+  font-family: Roboto-Medium;
+  font-size: 10px;
+  color: #ffffff;
+  right: 20%;
+  padding-left: 19px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+.show_price__status:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 23px solid transparent;
+  border-right: 16px solid #1cbbb4;
+  border-bottom: 23px solid transparent;
+  margin: -25px 0 0 205px;
+  transform: rotate(90deg);
+}
+.total_price__wrraper {
+  border-radius: 10px;
+  background-color: #1f2228;
+  margin-left: 52px;
+}
+
+/* -------------------------------  range-------------------------------------------------------- */
+/* ------------------------------- after range-------------------------------------------------------- */
+
+.supply_section {
+  padding: 55px 0px 0px;
+}
+.supply {
+  font-size: 35px;
+  color: #2f3440;
+  font-family: Roboto-Black;
+}
+.supply span {
+  color: #fbba42;
+}
+.supply_border_bottom {
+  width: 116px;
+  height: 4px;
+  background-color: #fbba42;
+  margin: auto;
+  display: block;
+  margin-top: 22px;
+}
+.supply_img {
+  width: 430px;
+  height: 287px;
+  box-shadow: -23px -20px #fbba42;
+}
+.supply_second_row {
+  margin-bottom: 35px;
+  margin-top: 93px;
+}
+.supply_second_row_title {
+  font-size: 25px;
+  color: #2f3440;
+  font-family: "Roboto-Bold";
+}
+.supply_second_row_text {
+  font-size: 16px;
+  font-family: "Roboto-Light";
+  color: #2f3440;
+}
+.supply_second_content {
+  padding: 48px 0px;
+}
+
+/* ------------------------------- after range-------------------------------------------------------- */
+
+/* ------------------------------- granit-------------------------------------------------------- */
+
+.granit {
+  padding: 47px 0 39px 329px;
+  background: url(../img/granit_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.granit_text {
+  font-family: Roboto-Bold;
+  font-size: 25px;
+  color: #ffffff;
+  line-height: 20px;
+}
+
+.granit_price {
+  font-size: 50px;
+  color: #fbba42;
+}
+/* ------------------------------- granit-------------------------------------------------------- */
+
+/* ------------------------------- second table-------------------------------------------------------- */
+.table__price {
+  font-family: Roboto-Black;
+  font-size: 35px;
+  color: #2f3440;
+  display: block;
+  margin-top: 5%;
+}
+.second_table__price {
+  color: #fbba42;
+}
+.second_table__line {
+  /* ------------------------------- sax gcer@ nuyn stylerna-------------------------------------------------------- */
+  border-bottom: 4px solid #fbba42;
+  width: 10.2%;
+  margin-bottom: 46px;
+}
+.for_border_second {
+  border-right: 1px solid #000 !important;
+  padding: 0 !important;
+  vertical-align: middle !important;
+  font-family: Roboto-Regular;
+  font-size: 14px;
+  color: #ffffff;
+}
+.params {
+  width: 34.1%;
+}
+/* ------------------------------- second table-------------------------------------------------------- */
+.chosse_armature_title {
+  font-family: "Roboto-Black";
+  font-size: 35px;
+  color: #2f3440;
+}
+.chosse_armature_title span {
+  color: #fbba42;
+}
+.chosse_armature_span {
+  margin: auto;
+  background-color: #fbba42;
+  width: 116px;
+  height: 4px;
+  margin-bottom: 42px;
+}
+.armature_description {
+  background-color: #fff;
+  border-radius: 5px;
+  height: 100%;
+}
+.chosse_armature_section {
+  background-color: #f9fafa;
+  padding: 80px 0px 50px;
+}
+.armature_description_title {
+  margin-top: 25px;
+  font-family: "Roboto-Bold";
+  font-size: 20px;
+  color: #2f3440;
+}
+.armature_description_text {
+  font-family: "Roboto-Light";
+  font-size: 16px;
+  color: #2f3440;
+}
+.armature_description_button {
+  font-family: "Roboto-Medium";
+  font-size: 14px;
+  border: 1px solid #fbba42;
+  border-radius: 5px;
+  color: #fbba42;
+  background-color: #fff;
+  cursor: pointer;
+  padding: 5px 23px;
+}
+
+/* ------------------------------- antifreeze-------------------------------------------------------- */
+
+.antifreeze {
+  background: url(../img/antifreeze_bg.png);
+  background-size: cover;
+  padding-top: 22px;
+  padding-bottom: 23px;
+  padding-right: 254px;
+}
+.antifreeze_text {
+  font-family: Roboto-Bold;
+  font-size: 25px;
+  color: #2f3440;
+}
+.antifreeze_price {
+  font-size: 50px;
+}
+
+/* ------------------------------- antifreeze-------------------------------------------------------- */
+
+/* ------------------------------- sales price-------------------------------------------------------- */
+.price_wrraper {
+  padding-top: 84px;
+  padding-bottom: 74px;
+  background: url(../img/low__prices.png);
+  background-size: cover;
+  padding-left: 108px;
+}
+.sales_price {
+  font-family: Roboto-Medium;
+  color: #fbba42;
+  font-size: 110px;
+  margin-right: 23px;
+}
+.low_price {
+  font-family: Roboto-Black;
+  font-size: 42px;
+  color: #ffffff;
+  line-height: 45px;
+  width: 10%;
+}
+.price_text {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  width: 48.1%;
+}
+/* ------------------------------- sales price-------------------------------------------------------- */
+
+.about {
+  font-family: Roboto-Light;
+  font-size: 35px;
+  font-weight: 900;
+  letter-spacing: 1.8px;
+}
+.about_paragraph {
+  font-family: Roboto-Light;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.38;
+  color: #2f3440;
+  width: 75%;
+}
+.company {
+  font-family: Roboto-Black;
+  font-weight: 300;
+  color: #fbba42;
+}
+.workers_family {
+  max-width: 100%;
+  height: auto;
+}
+/*----------------------car slder -----------------------------*/
+.send_by_post {
+  background-image: url(../img/send_by_post_bg.png);
+  width: 100%;
+  background-position: 50% 50%;
+  background-size: cover;
+  padding: 62px 0;
+}
+.send_by_post_title {
+  font-size: 30px;
+  color: #fff;
+  font-family: "Roboto-Black";
+}
+.send_by_post_button {
+  cursor: pointer;
+  background-color: #2f3440;
+  color: #fff;
+  padding: 17px 40px;
+  border-radius: 5px;
+  border: none;
+}
+.send_by_post_title span {
+  color: #fbba42;
+}
+.fast_delivery_section {
+  background-image: url(../img/car_slider__bg.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+.fast_delivery_border_bottom {
+  width: 116px;
+  height: 4px;
+  margin: auto;
+  margin: 15px auto;
+  background-color: #fbba42;
+}
+.fast_delivery {
+  font-family: "Roboto-Black";
+  font-size: 35px;
+}
+.fast_delivery_text {
+  font-family: "Roboto-Light";
+  font-size: 16px;
+  color: #fff;
+  width: 75%;
+  margin: auto;
+}
+.fast_delivery span {
+  color: #fbba42;
+}
+.fast_delivery_contnet {
+  padding: 90px 0px;
+}
+.fast_delivery_sliderr_next_button,
+.fast_delivery_sliderr_next_button {
+  width: 13px;
+  height: 23px;
+}
+.fast_delivery_slider_photo {
+  width: 80% !important;
+}
+.fast_delivery_slider_img_button {
+  background-color: rgba(47, 52, 64, 0.3);
+  color: #fbba42;
+  font-size: 13px;
+  width: 220px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.fast_delivery_slider_button_li {
+  background-color: rgba(0, 0, 0, 0);
+  margin: 0px 10px;
+}
+.fast_delivery_slider_button_li a {
+  border: 1px solid #9ea0a4;
+  border-radius: 5px;
+  color: #9fa0a4;
+}
+.nav-link.active {
+  color: #fff !important;
+  background-color: #fbba42;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 10px;
+}
+.dropdown-menu.car_slider_dropdown.show {
+  background: none;
+  border: none;
+}
+.fast_delivery_content_footer {
+  width: 100%;
+  padding: 35px 0px;
+}
+.fast_delivery_content_footer_content_title {
+  font-family: "Roboto-Bold";
+  font-size: 30px;
+  color: #fff;
+}
+.fast_delivery_content_footer_content_title span {
+  color: #fbba42;
+}
+.fast_delivery_content_footer {
+  background-color: #121d25;
+  opacity: 0.8;
+}
+.fast_delivery_content_footer_content_text {
+  color: #fff;
+  font-family: "Roboto-Light";
+  font-size: 20px;
+}
+.fast_delivery_content_footer_content_button {
+  border: none;
+  background-color: #fbba42;
+  color: #212727;
+  padding: 5px 25px;
+  border-radius: 5px;
+  font-family: "Roboto-Bold";
+  font-size: 14px;
+}
+/*----------------------car slder -----------------------------*/
+/* ------------------------------- about us-------------------------------------------------------- */
+
+.about_wrraper__padding {
+  padding-top: 11px;
+}
+.about_us__title {
+  font-family: Roboto-Bold;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.8px;
+  color: #414149;
+}
+.about_quality__icons {
+  width: 28px;
+  height: 36px;
+}
+.about_present__icons {
+  width: 29px;
+  height: 29px;
+}
+.about_present__icons {
+  width: 29px;
+  height: 29px;
+}
+.about_save_time__icons {
+  width: 35px;
+  height: 34px;
+}
+.about__icon_wrraper {
+  border: solid 1px #fbba42;
+  border-radius: 50%;
+  width: 77px;
+  height: 77px;
+}
+.about_us__text {
+  font-family: Roboto-Light;
+  font-size: 14px;
+  font-weight: 300;
+  color: rgba(47, 52, 64, 0.5);
+  opacity: 0.9;
+}
+.first_text {
+  width: 85.3%;
+}
+.second_text {
+  width: 90%;
+}
+.third_text {
+  width: 95%;
+}
+.about_us__wrraper_bottom_border {
+  height: 13px;
+  background-color: #FBBA42;
+  margin-top: 0;
+}
+/*-------------------------SERTIFICATE-------------------------------------*/
+
+.sertificate_section {
+  background-color: #f9fafa;
+  padding: 90px 0px;
+}
+
+.sertificate {
+  font-size: 35px;
+  color: #2f3440;
+  font-family: "Roboto-Black";
+}
+.sertificate span {
+  color: #fbba42;
+}
+
+.partners_border_bottom {
+  width: 116px;
+  height: 4px;
+  background-color: #fbba42;
+  margin: auto;
+  display: block;
+  margin-top: 22px;
+}
+
+.sliderNext_sertificate,
+.sliderPrev_sertificate {
+  width: 12px;
+  height: 23px;
+  cursor: pointer;
+  position: relative;
+  top: -150px;
+  z-index: 9;
+}
+
+.owl-nav,
+.owl-dots {
+  display: none;
+}
+
+.sliderPrev_sertificate {
+  float: right;
+}
+
+.sertificate_img {
+  background-size: contain;
+  width: 100%;
+  height: 280px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+
+.owl-carousel.owl-theme.owl-loaded.owl-drag {
+  padding-top: 71px;
+}
+
+/*====================================free consultation===============================================*/
+
+.ton_wrraper {
+  width: 70%;
+}
+
+.your_email {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+}
+
+/*-------------------------------------  form --------------------------------------------*/
+.name_input {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+}
+.your_name {
+  font-family: Roboto-Medium;
+  font-size: 16px;
+  color: #ffffff;
+}
+.number_input {
+  width: 44.8%;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+}
+.wrraper {
+  display: block;
+  font-family: Roboto-Regular;
+  font-size: 14px;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  user-select: none;
+}
+.wrraper input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.checkmark {
+  position: absolute;
+  top: 14px;
+  left: 0;
+  height: 25px;
+  width: 26px;
+  background-color: #eee;
+  border-radius: 5px;
+}
+.wrraper:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+.wrraper input:checked ~ .checkmark {
+  background-color: #2196f3;
+}
+#checkmark {
+  background: #ffffff !important;
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.wrraper input:checked ~ .checkmark:after {
+  display: block;
+}
+.wrraper .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 8px;
+  height: 14px;
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+.agree_sign {
+  font-family: Roboto-Regular;
+  font-size: 14px;
+  color: #ffffff;
+  width: 48%;
+}
+.leave_application {
+  font-family: Roboto-Bold;
+  font-size: 14px;
+  color: #ffffff;
+  width: 70.4%;
+  height: 45px;
+  padding: 0;
+  border: none;
+  background: #2f3440;
+  border-radius: 10px;
+}
+
+.free_consultation_title {
+  color: #fff;
+  font-size: 30px;
+  font-family: "Roboto-Black";
+}
+
+.free_consultation_title span {
+  color: #fbba42;
+}
+
+.free_consultation_text {
+  color: #fff;
+  font-size: 16px;
+  font-family: "Roboto-Regular";
+}
+
+/*-------------------------OUR PARTNERS------------------------------------------*/
+
+.partners_section {
+  background-color: #fff;
+  padding: 90px 0px 100px;
+}
+
+.partners {
+  font-size: 35px;
+  color: #2f3440;
+  font-family: "Roboto-Black";
+}
+.partners span {
+  color: #fbba42;
+}
+
+.partners_border_bottom {
+  width: 116px;
+  height: 4px;
+  background-color: #fbba42;
+  margin: auto;
+  display: block;
+  margin-top: 22px;
+}
+
+.partners_img {
+  background-size: contain;
+  width: 80%;
+  margin: auto;
+  height: 78px;
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+}
+
+.owl-carousel.owl-theme.owl-loaded.owl-drag {
+  padding-top: 86px;
+}
+
+.sliderNext,
+.sliderPrev {
+  width: 12px;
+  height: 23px;
+  cursor: pointer;
+  position: relative;
+  top: -35px;
+  z-index: 9;
+}
+
+.sliderPrev {
+  float: right;
+}
+
+.owl-nav,
+.owl-dots {
+  display: none;
+}
+
+/*----------------------------reviews-----------------------------------*/
+
+.reviews_section {
+  background-image: url(../img/revie_bg.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.reviews_border_bottom {
+  width: 116px;
+  height: 4px;
+  margin: auto;
+  background-color: #fbba42;
+  margin-bottom: 50px;
+}
+
+.reviews_title {
+  font-family: "Roboto-Black";
+  font-size: 35px;
+}
+
+.reviews_avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-image: url(../img/reviews_avatar.png);
+  margin: auto;
+}
+
+.reviews_description {
+  font-family: "Roboto-Light";
+  font-size: 16px;
+  color: #fff;
+}
+
+.reviews_avatar_name {
+  color: #fbba42;
+  font-family: "BadScript-Regular";
+  font-size: 18px;
+}
+
+.reviews_content {
+  padding: 90px 0px;
+}
+
+div#carouselExampleControls {
+  padding-top: 60px;
+}
+
+p.reviews_description.text-center {
+  padding-top: 40px;
+}
+
+.reviews_navigation_buttons {
+  width: 12px;
+  height: 23px;
+}
+
+/*-----------------------------------answer and question-----------------------------------------------*/
+
+.worker__phone {  
+  width: 100%;
+}
+
+.answer_and_question_section {
+  background-image: url(../img/builds_bg.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 100%;
+  height: auto;
+  padding-top: 85px;
+}
+.collapsed.collapsed:hover {
+  text-decoration: none;
+}
+#faq-list {
+  list-style: none;
+  padding: 0px;
+}
+.faq_list_down_arrow {
+  width: 20px;
+  height: 20px;
+  background-color: #fbba42;
+  border-radius: 50%;
+  float: left;
+}
+a.collapsed.text-uppercase {
+  font-family: "Roboto-Black";
+  font-size: 16px;
+  color: #414149 !important;
+}
+#faq-list li {
+  margin: 11px 0px;
+}
+#faq-list li a {
+  font-family: "Roboto-Black";
+  font-size: 16px;
+  color: #414149;
+  text-decoration: none;
+}
+.faq_list_down_arrow_icon {
+  width: 10px;
+  height: 5px;
+  transform: rotate(-90deg);
+  display: block;
+  margin: auto;
+}
+.answer_and_question_title {
+  font-family: "Roboto-Black";
+  font-size: 35px;
+  color: #414149;
+  margin-bottom: 0px;
+}
+.answer_and_question_title span {
+  color: #fbba42;
+}
+.answer_and_question_title_bottom_line {
+  width: 116px;
+  height: 4px;
+  background-color: #fbba42;
+  display: block;
+  margin-top: 11px;
+  margin-bottom: 21px;
+}
+.answer_and_question_button {
+  background-color: #414149;
+  color: #fff;
+  font-size: 14px;
+  font-family: "Roboto-Bold";
+  text-align: center;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 5px;
+}
+
+/*------------------------------Google Map---------------------------------------*/
+.name_input {
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+}
+.your_name {
+  font-family: Roboto-Medium;
+  font-size: 16px;
+  color: #ffffff;
+}
+.code_number__select {
+  width: 20.7%;
+  height: 40px;
+  font-family: Roboto-Bold;
+  color: #2f3440;
+  margin-right: 4%;
+  background: #ffffff;
+  border-radius: 5px;
+  border: none;
+}
+.number_input {
+  width: 74%;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+}
+.wrraper {
+  display: block;
+  font-family: Roboto-Regular;
+  font-size: 14px;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  user-select: none;
+}
+.wrraper input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.checkmark {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  height: 25px;
+  width: 26px;
+  background-color: #eee;
+  border-radius: 5px;
+}
+.wrraper:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+.wrraper input:checked ~ .checkmark {
+  background-color: #2196f3;
+}
+#checkmark {
+  background: #ffffff !important;
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.wrraper input:checked ~ .checkmark:after {
+  display: block;
+}
+.wrraper .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 8px;
+  height: 14px;
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+.agree_sign {
+  font-family: Roboto-Regular;
+  font-size: 14px;
+  color: #ffffff;
+  width: 65%;
+}
+.agree_sign_last {
+  font-family: Roboto-Regular;
+  font-size: 14px;
+  color: #ffffff;
+  width: 70%;
+}
+.leave_application {
+  font-family: Roboto-Bold;
+  font-size: 14px;
+  color: #ffffff;
+  width: 100%;
+  height: 45px;
+  padding: 0;
+  border: none;
+  background: #2f3440;
+  border-radius: 10px;
+}
+
+.maps_form_div {
+  background-color: #383c44;
+}
+.maps_form {
+  width: 70%;
+  margin: auto;
+}
+
+.maps_button {
+  background-color: #fbba42;
+  color: #292d36;
+}
+
+.maps_form_message {
+  font-family: "Roboto-Medium";
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.maps_form_message_input {
+  width: 100%;
+  height: 80px;
+  resize: none;
+  margin-bottom: 23px;
+  border-radius: 5px;
+  border: none;
+}
+
+.maps_form_title {
+  font-family: "Roboto-Black";
+  font-size: 35px;
+  color: #fff;
+  padding-top: 80px;
+}
+
+.maps_form_title_line {
+  margin: auto;
+  width: 116px;
+  height: 4px;
+  margin-bottom: 30px;
+  background-color: #fbba42;
+}
+
+.map {
+  height: 650px;
+}
+
+.maps_footer {
+  background-color: #1cbbb4;
+}
+
+.maps_footer_icons {
+  width: 20px;
+  height: 14px;
+}
+
+.maps_footer_span {
+  color: #fff;
+  font-family: Roboto-Bold;
+  font-size: 14px;
+}
+
+@media (max-width: 991px) {
+  .maps_form_button {
+    margin: 25px 0px 70px;
+  }
+}
+
+@media (max-width: 576px) {
+  .maps_form_title {
+    font-size: 25px;
+  }
+  .maps_form_title_line {
+  }
+}
+
+/*========================================Footer navbar======================================================*/
+.footer_nav_section {
+  background-color: #21242b;
+}
+
+.footer_nav_span {
+  color: #fff;
+  font-size: 14px;
+  font-family: "Roboto-Medium";
+  page-break-after: auto;
+  padding: 45px 13px;
+}
+
+.footer_nav_span_logo {
+  font-size: 26px;
+  font-family: "Roboto-Bold";
+}
+
+footer {
+  background-color: #181b21;
+}
+
+.footer_twitter_icon {
+  color: #55acee;
+}
+
+.footer_text {
+  font-size: 12px;
+  font-family: Roboto-Regular;
+}
+
+
+
+/* ------------------------------- sales us-------------------------------------------------------- */
+
+/* ------------------------------- @media-------------------------------------------------------- */
+
+@media (max-width: 1200px) {
+  .footer_nav_span {
+    padding: 20px 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .header_wrraper {
+    padding-left: 0px !important;
+  }
+  .order_row {
+    background: none;
+    padding: 0;
+  }
+  .valves_img___wrraper {
+    background: url(../img/min_bg__one.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .first_orderForm__wrraper {
+    background: url(../img/min_bg__two.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5%;
+  }
+  .worrker_wrraper {
+    height: auto;
+  }
+  .right_presentText_wrraper,
+  .left_presentText_wrraper {
+    text-align: left !important;
+    padding-left: 0;
+  }
+  .present_paragraph,
+  .present_paragraph__right {
+    margin: 0 !important;
+    padding-bottom: 12px;
+  }
+  .present_form,
+  .present_form__right {
+    text-align: left !important;
+    clip-path: none;
+  }
+  .worrker_wrraper {
+    background: none;
+  }
+  .worrker_wrraper_first_div {
+    background-image: url(../img/min_bg__two.png);
+    background-size: cover;
+    padding: 30px 0px 23px 0px;
+  }
+  .worrker_wrraper_second_div {
+    background-image: url(../img/min_bg__one.png);
+    background-size: cover;
+    padding: 30px 0px 23px 0px;
+  }
+  .present_form__right {
+    padding-left: 0;
+    width: 100%;
+  }
+  .present_form {
+    width: 100%;
+  }
+  #name {
+    width: 100%;
+  }
+  .number_input {
+    width: 73.9%;
+  }
+  .code_number__select {
+    width: 20.7%;
+    font-size: 12px;
+  }
+  .leave_application {
+    width: 100%;
+    margin-bottom: 5%;
+  }
+  .advantage_wrraper {
+    background-size: cover;
+  }
+  .table_price__wrraper ul {
+    overflow-x: scroll;
+    width: 1142px;
+  }
+  .table_price__wrraper table {
+    overflow-x: scroll;
+    width: 1142px;
+  }
+  .worker_with__hat {
+   display: none;
+  }
+  .min_worker {
+    position: absolute;
+    z-index: 20;
+    width: 14%;
+    height: inherit;
+    right: 0px;
+    top: -37px;
+    margin: 0;
+  }
+  .calculate {
+    font-size: 25px;
+    font-weight: 900;
+    letter-spacing: 1.3px;
+  }
+  .worrker_wrraper {
+    padding: 0;
+  }
+  .total_price__wrraper {
+    padding-top: 5%;
+    margin-left: 0px;
+  }
+  .granit {
+    padding: 20px 0 20px 24px;
+  }
+  .granit_text {
+    font-family: Roboto-Bold;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 30px;
+    display: block;
+    width: 60%;
+  }
+  .granit_price {
+    font-size: 30px;
+    color: #fbba42;
+  }
+  .first_price__list {
+    margin-bottom: 51px;
+  }
+  .priceList_wrraper {
+    padding-top: 46px;
+  }
+  .range__wrraper {
+    padding: 49px 0px;
+  }
+  .antifreeze {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .antifreeze_text {
+    font-size: 16px;
+  }
+  .antifreeze_price {
+    font-size: 33px;
+  }
+  .price_wrraper {
+    background-position: 60% 0%;
+    padding-left: 15px;
+    padding-top: 17px;
+    padding-bottom: 11px;
+  }
+  .agree_sign_last {
+    width: 40%;
+  }
+  .answer_and_question_button {
+    margin-bottom: 50px;
+  }
+  .min_work__wrap {
+    right: 0;
+    bottom: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .send_by_post {
+    background: none;
+    padding: 0;
+  }
+  .send_by_post_first_div {
+    padding: 35px 0px 30px;
+    background-color: #2f3440;
+  }
+  .send_by_post_second_div {
+    padding: 15px 0px;
+    background-color: #fbba42;
+  }
+  .send_by_post_title {
+    font-size: 20px;
+    width: 80%;
+  }
+  .supply_second_row_img_div {
+    margin-left: 7.5px !important;
+  }
+  .supply_second_row_text_div {
+    padding-left: 0px !important;
+    padding-right: 30px !important;
+  }
+  .fast_delivery_slider_button_a {
+    display: flex !important;
+    align-items: center !important;
+  }
+  .car_slider_dropdown {
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 42px;
+  }
+  .fast_delivery_content_footer_content_title {
+    font-size: 25px;
+    text-align: center;
+  }
+  .fast_delivery_content_footer_content_text {
+    font-size: 15px;
+    text-align: center;
+  }
+  .answer_and_question_button {
+    /* margin-bottom: 5%; */
+    display: block;
+    margin: auto;
+  }
+  .granit {
+    background-position: 90% 50%;
+  }
+  .price_text {
+    font-size: 10px;
+  }
+  .low_price {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .sales_price {
+    font-size: 40px;
+  }
+  .answer_and_question_section {
+    padding-bottom: 2%;
+  }
+  .fast_delivery_content_footer_content_button {
+    margin-left: 30px;
+  }
+  h1.text-uppercase.answer_and_question_title {
+    text-align: center;
+    font-size: 25px;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 5%;
+  }
+  .answer_and_question_title_bottom_line {
+    margin: auto;
+    margin-bottom: 5%;
+  }
+  .sliderNext, .sliderPrev {
+    top: -24px;
+  }
+  .sertificate {
+    font-size: 25px;
+  }
+  .d-flex.align-items-center.justify-content-center.about__icon_wrraper {
+    margin-bottom: 3%;
+  }
+  .agree_sign {
+    width: 55%;
+  }
+}
+
+@media (max-width: 576px) {
+  .leave_application {
+    margin-bottom: 10px;
+  }
+  .valves__order_text {
+    font-size: 12px;
+  }
+  .fifteen_tones {
+    font-size: 34px;
+  }
+  .one_tone {
+    font-size: 34px;
+  }
+  .slider_second_title,
+  .slider_title {
+    font-size: 25px;
+  }
+  .slider_text {
+    font-size: 12px;
+  }
+  .slider-content {
+    padding: 150px 31px;
+  }
+  .advantage_wrraper {
+    background-image: none;
+    bottom: 25px;
+    padding: 0;
+  }
+  .advantage_line {
+    margin: auto;
+    margin-bottom: 28px;
+    width: 107px;
+  }
+  .advantage_text {
+    font-size: 24px;
+    text-align: center;
+  }
+  .code_number__select {
+    width: 20.5%;
+    font-size: 12px;
+  }
+  .agree_sign {
+    width: 70%;
+  }
+  .agree_sign_last {
+    width: 90%;
+    padding-top: 3%;
+  }
+  .supply_img {
+    width: 100%;
+    height: auto;
+  }
+  .order_row {
+    margin-top: 0px;
+  }
+  .ton_wrraper {
+    margin-left: 4%;
+  }
+  .first_choose__class {
+    width: 90%;
+  }
+
+  .rang_show {
+    width: 60%;
+  }
+  .table__price {
+    font-size: 25px;
+    width: 75%;
+    margin: auto;
+    margin-top: 50px;
+    display: block;
+  }
+  .second_table__line {
+    width: 116px;
+  }
+  .antifreeze {
+    background-position: 40% 50% !important;
+  }
+  .antifreeze_text {
+    margin: auto;
+    display: block;
+    width: 97%;
+  }
+  .aboutUs_text__wrrper {
+    padding: 0;
+  }
+  .first_text {
+    width: 100%;
+  }
+  .second_text {
+    width: 100%;
+  }
+  .third_text {
+    width: 100%;
+  }
+  .partners {
+    font-size: 25px;
+  }
+  .answer_and_question_button {
+    margin-bottom: 50px;
+  }
+  .fast_delivery_content_footer_content_button {
+    margin-left: 0px;
+  }
+  .present_item {
+    width: 80%;
+  }
+  .present_paragraph {
+    font-size: 12px;
+  }
+  .present_item {
+    font-size: 20px;
+  }
+  .present_count {
+    font-size: 20px;
+  }
+  .range_title {
+    font-size: 13px;
+  }
+  .sliderNext_sertificate, .sliderPrev_sertificate {
+    display: none;
+  }
+  .chosse_armature_title {
+    font-size: 25px;
+  }
+  .armature_description_title {
+    text-align: center;
+  }
+  .armature_description_text {
+    text-align: center;
+  }
+  .armature_description_button {
+    margin: 0 auto;
+    display: block;
+  }
+  .free_consultation_title {
+    font-size: 25px;
+  }
+  .leave_application {
+    width: 100%;
+  }
+  .your_email {
+    width: 100%;
+  }
+  .code_number__select {
+    width: 30%;
+    font-size: 12px;
+  }
+  .name_input {
+    width: 100%;
+  }
+  .number_input {
+    width: 64%;
+  }
+  .agree_sign {
+    width: 80%;
+  }
+}
